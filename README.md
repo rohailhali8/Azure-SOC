@@ -13,10 +13,10 @@ In this project, I build a mini honeynet in Azure and ingest log sources from va
 - AzureNetworkAnalytics_CL (Malicious Flows allowed into our honeynet)
 
 ## Architecture Before Hardening / Security Controls
-![Architecture Diagram](https://i.imgur.com/aBDwnKb.jpg)
+![image](https://github.com/rohailhali8/Azure-SOC/assets/173890376/404a368a-936e-4224-aec5-b4e691ba0569)
 
 ## Architecture After Hardening / Security Controls
-![Architecture Diagram](https://i.imgur.com/YQNa9Pp.jpg)
+![image](https://github.com/rohailhali8/Azure-SOC/assets/173890376/6cfeb3e7-efdf-4d85-8a71-edee3f903c65)
 
 The architecture of the mini honeynet in Azure consists of the following components:
 
@@ -33,9 +33,9 @@ For the "BEFORE" metrics, all resources were originally deployed, exposed to the
 For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic with the exception of my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoint
 
 ## Attack Maps Before Hardening / Security Controls
-![NSG Allowed Inbound Malicious Flows](https://i.imgur.com/1qvswSX.png)<br>
-![Linux Syslog Auth Failures](https://i.imgur.com/G1YgZt6.png)<br>
-![Windows RDP/SMB Auth Failures](https://i.imgur.com/ESr9Dlv.png)<br>
+![image](https://github.com/rohailhali8/Azure-SOC/assets/173890376/3be1fadf-8ae4-47e1-8a3a-af82ba651394)<br>
+![image](https://github.com/rohailhali8/Azure-SOC/assets/173890376/09c5f397-01b8-47e2-9583-b294d11b5a85)<br>
+![image](https://github.com/rohailhali8/Azure-SOC/assets/173890376/19fdf307-2108-41e2-80e2-380c68bd84a7)<br>
 
 ## Metrics Before Hardening / Security Controls
 
